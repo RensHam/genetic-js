@@ -1,0 +1,24 @@
+{
+  "name": "genetic-js",
+  "version": "0.1.0",
+  "description": "Run a genetic algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=unit mocha --reporter mocha-jenkins-reporter",
+    "lint": "eslint src test"
+  },
+  "type": "module",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1",
+    "mocha-jenkins-reporter": "^0.4.5",
+    "sinon": "^9.2.3",
+    "sinon-chai": "^3.5.0"
+  }
+}
